@@ -1,0 +1,47 @@
+{
+  "last_url": "https://admission.udvash.com/Admission/NewAdmission",
+  "last_excel": "C:/Users/Googe/Desktop/Class-9 Math olympiad Data for Data Entry - Copy.xlsx",
+  "speed_mode": "normal",
+  "speed_ms": 900,
+  "typing_delay_ms": 30,
+  "submit_wait_ms": 2200,
+  "page_timeout_sec": 8,
+  "auto_skip_success": true,
+  "continue_on_error": true,
+  "sound_alarm": true,
+  "screenshot_on_error": true,
+  "portal_default_url": "https://admission.udvash.com",
+  "portal_username": "",
+  "ai_supervisor": true,
+  "ai_self_healing": true,
+  "ai_data_clean": true,
+  "ai_verify_submit": true,
+  "ai_consecutive_guard": true,
+  "auto_fill_login": true,
+  "bookmarks": [
+    {
+      "title": "🏠 স্টুডেন্ট পোর্টাল",
+      "url": "https://udvash.com"
+    },
+    {
+      "title": "📚 উন্মেষ পোর্টাল",
+      "url": "https://admission.unmeshbd.com"
+    },
+    {
+      "title": "📖 উত্তরণ একাডেমি",
+      "url": "https://admission.uttoron.academy"
+    },
+    {
+      "title": "🌐 গুগল",
+      "url": "https://www.google.com"
+    }
+  ],
+  "ai_error_doctor": true,
+  "allow_existing_students": true,
+  "dry_run_mode": true,
+  "preflight_audit": true,
+  "batch_scope_mode": "custom",
+  "batch_scope_start": 7,
+  "batch_scope_end": 10,
+  "_enc_portal_password": ""
+}

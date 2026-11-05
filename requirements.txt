@@ -1,0 +1,5 @@
+PyQt6>=6.4.0
+PyQt6-WebEngine>=6.4.0
+openpyxl>=3.1.0
+xlrd>=2.0.1
+

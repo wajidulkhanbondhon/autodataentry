@@ -1,0 +1,86 @@
+{
+  "reg_no": {
+    "label": "Registration / Roll No",
+    "source": "excel",
+    "excel_col": "",
+    "default_val": "",
+    "selector": "input[name*='reg' i], input[placeholder*='registration' i], #txtRegNo"
+  },
+  "phone": {
+    "label": "Student Phone No",
+    "source": "excel",
+    "excel_col": "",
+    "default_val": "",
+    "selector": "input[name*='phone' i], input[placeholder*='phone' i], #txtPhone"
+  },
+  "class_name": {
+    "label": "Class (ক্লাস)",
+    "source": "fixed",
+    "excel_col": "",
+    "default_val": "HSC 26",
+    "selector": "select[name*='class' i], #ddlClass"
+  },
+  "program": {
+    "label": "Program (প্রোগ্রাম)",
+    "source": "fixed",
+    "excel_col": "",
+    "default_val": "Engineering Admission",
+    "selector": "select[name*='program' i], #ddlProgram"
+  },
+  "session": {
+    "label": "Session (সেশন)",
+    "source": "fixed",
+    "excel_col": "",
+    "default_val": "2025-2026",
+    "selector": "select[name*='session' i], #ddlSession"
+  },
+  "institute": {
+    "label": "Present / Last Institute (কলেজ)",
+    "source": "excel",
+    "excel_col": "Institute",
+    "default_val": "",
+    "selector": "#LastInstituteName"
+  },
+  "version": {
+    "label": "Study Version (ভার্সন)",
+    "source": "fixed",
+    "excel_col": "",
+    "default_val": "Bangla Version",
+    "selector": "select[name*='version' i], #ddlVersion"
+  },
+  "branch": {
+    "label": "Branch (শাখা)",
+    "source": "fixed",
+    "excel_col": "",
+    "default_val": "Rajshahi Kadirganj udvash",
+    "selector": "#ddlBranch"
+  },
+  "campus": {
+    "label": "Campus (ক্যাম্পাস)",
+    "source": "fixed",
+    "excel_col": "",
+    "default_val": "Rajshahi",
+    "selector": "select[name*='campus' i], #ddlCampus"
+  },
+  "group": {
+    "label": "Academic Group (গ্রুপ)",
+    "source": "fixed",
+    "excel_col": "",
+    "default_val": "Science",
+    "selector": "select[name*='group' i], #ddlGroup"
+  },
+  "amount": {
+    "label": "Amount (টাকা - Strict Lock)",
+    "source": "fixed",
+    "excel_col": "",
+    "default_val": "0",
+    "selector": "input[name*='amount' i], #txtAmount"
+  },
+  "ddlbatch": {
+    "label": "Batch (ব্যাচ)",
+    "source": "fixed",
+    "excel_col": "",
+    "default_val": "Morning 8AM",
+    "selector": "#ddlBatch"
+  }
+}

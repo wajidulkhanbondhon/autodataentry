@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+browser_profile/
+qt_browser_profile/
+qt_browser_cache/
+qt_cache/
+errors/
+*.xlsx
+*.log
+.vscode/
+.idea/

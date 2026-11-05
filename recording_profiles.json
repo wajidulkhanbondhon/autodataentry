@@ -1,0 +1,147 @@
+{
+  "default": {
+    "name": "ডিফল্ট রেকর্ডিং",
+    "steps": [
+      {
+        "action": "type",
+        "selector": "#stdRollOrStdProRoll",
+        "xpath": "//*[@id=\"stdRollOrStdProRoll\"]",
+        "label": "Mobile Number / Roll Number / Registration Number / Booking ID / Visited ID",
+        "tag": "INPUT",
+        "value": "4956816",
+        "opt_value": "",
+        "col_bind": "Reg Number"
+      },
+      {
+        "action": "click",
+        "selector": "input.btn.btn-primary.btn-lg.btn-block",
+        "xpath": "//*[@id=\"main-body-content\"]/div/div[2]/div[2]/form/input[2]",
+        "label": "",
+        "tag": "INPUT",
+        "value": "Submit",
+        "opt_value": "",
+        "col_bind": ""
+      },
+      {
+        "action": "select",
+        "selector": "#StudentClass",
+        "xpath": "//*[@id=\"StudentClass\"]",
+        "label": "",
+        "tag": "SELECT",
+        "value": "Seven",
+        "opt_value": "11",
+        "col_bind": ""
+      },
+      {
+        "action": "select",
+        "selector": "#Program",
+        "xpath": "//*[@id=\"Program\"]",
+        "label": "Class :",
+        "tag": "SELECT",
+        "value": "Class 7 MCQ Math Olympiad",
+        "opt_value": "251",
+        "col_bind": ""
+      },
+      {
+        "action": "select",
+        "selector": "#Session",
+        "xpath": "//*[@id=\"Session\"]",
+        "label": "Session :",
+        "tag": "SELECT",
+        "value": "2026",
+        "opt_value": "66",
+        "col_bind": ""
+      },
+      {
+        "action": "type",
+        "selector": "#LastInstituteName",
+        "xpath": "//*[@id=\"LastInstituteName\"]",
+        "label": "Present / Last Educational Institute",
+        "tag": "INPUT",
+        "value": "RAJSHAHI GOVT GIRLS HIGH SCHOOL",
+        "opt_value": "",
+        "col_bind": "Institute"
+      },
+      {
+        "action": "click",
+        "selector": "ul.typeahead.dropdown-menu > li:nth-child(1) > a:nth-child(1)",
+        "xpath": "//*[@id=\"newAdmissionForm\"]/div[8]/div/ul/li/a",
+        "label": "",
+        "tag": "A",
+        "value": "RAJSHAHI GOVT GIRLS HIGH SCHOOL [127029]",
+        "opt_value": "",
+        "col_bind": ""
+      },
+      {
+        "action": "select",
+        "selector": "#Branch",
+        "xpath": "//*[@id=\"Branch\"]",
+        "label": "Branch :",
+        "tag": "SELECT",
+        "value": "Rajshahi Kadirganj Udvash",
+        "opt_value": "89",
+        "col_bind": ""
+      },
+      {
+        "action": "select",
+        "selector": "#Campus",
+        "xpath": "//*[@id=\"Campus\"]",
+        "label": "Campus :",
+        "tag": "SELECT",
+        "value": "Rajshahi Campus",
+        "opt_value": "100",
+        "col_bind": ""
+      },
+      {
+        "action": "click",
+        "selector": "input.course-name-check.course-3153",
+        "xpath": "//*[@id=\"course-3153-container\"]/table/tbody/tr/td[1]/input",
+        "label": "",
+        "tag": "INPUT",
+        "value": "on",
+        "opt_value": "",
+        "col_bind": ""
+      },
+      {
+        "action": "click",
+        "selector": "#newAdmissionNextBtn",
+        "xpath": "//*[@id=\"newAdmissionNextBtn\"]",
+        "label": "",
+        "tag": "INPUT",
+        "value": "Next",
+        "opt_value": "",
+        "col_bind": ""
+      },
+      {
+        "action": "type",
+        "selector": "#receivedAmount",
+        "xpath": "//*[@id=\"receivedAmount\"]",
+        "label": "Received Amount",
+        "tag": "INPUT",
+        "value": "0",
+        "opt_value": "",
+        "col_bind": ""
+      },
+      {
+        "action": "click",
+        "selector": "#admissionPaymentSubmitBtn",
+        "xpath": "//*[@id=\"admissionPaymentSubmitBtn\"]",
+        "label": "",
+        "tag": "INPUT",
+        "value": "Submit",
+        "opt_value": "",
+        "col_bind": ""
+      },
+      {
+        "action": "click",
+        "selector": "div.row > div:nth-child(1) > a:nth-child(1)",
+        "xpath": "//*[@id=\"app\"]/div[3]/div/a[1]",
+        "label": "",
+        "tag": "A",
+        "value": "Back to Admission",
+        "opt_value": "",
+        "col_bind": ""
+      }
+    ]
+  }
+}
